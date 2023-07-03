@@ -1,0 +1,72 @@
+import { StyleSheet ,StatusBar} from "react-native";
+
+const LockScreenStyles = StyleSheet.create({
+    image:{
+      transform:[{scale:1}],
+    },
+    textscontainer:{
+      flex:1,
+      position:"relative"
+    },
+    bottomContainer:{
+      position:"absolute",
+      bottom:0,
+    },
+    bottomText:{
+      textAlign:"center",
+      color:"white"
+    },
+    time:{
+      color:"#ffffff",
+      fontSize:70,
+      fontWeight:"100"
+    },
+    date:{
+      color:"#ffffff",
+      fontSize:18
+    },
+    iconBackground:{
+      width:45,
+      aspectRatio:1,
+      backgroundColor:"#ffffff59",
+      display:"flex",
+      justifyContent:"center",
+      alignItems:"center",
+      borderRadius:50,
+    },
+    folderContainer:{
+      paddingTop:10
+    },
+    folder:{
+      color:"#ffffff",
+      fontSize:20,
+    },
+    icon:{
+      fontSize:30,
+      color:"#ffffff"
+    },
+    timeContainer:{
+      paddingTop:StatusBar.currentHeight * 5,
+      display:"flex",
+      justifyContent:"center",
+      alignItems:"center",
+    },
+    iconsContainer:{
+      position:'absolute',
+      bottom:0,
+      width:"100%",
+      padding:20,
+      display:"flex",
+      flexDirection:"row",
+      justifyContent:"space-between",
+    },
+    lock:{
+      fontSize:30,
+      color:"white",
+      position:"absolute",
+      top:35,
+      textAlign:"center"
+    }
+  })
+
+  export default LockScreenStyles;
