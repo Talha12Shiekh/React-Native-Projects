@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "TK Calculator",
+    "slug": "tk-calculator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Calculator-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Calculator-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.betoateexpo.tkcalculator"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "86ef0269-ffd9-47f9-8e07-49409ac6bf02"
+      }
+    },
+    "owner": "talha_sheikh"
+  }
+}
